@@ -95,7 +95,7 @@ namespace Program
 		public static void Main()
 		{
 			Console.WriteLine("The second commit\n\n");
-		
+			
 			int a = 1001;
 			int b = 2000 - a;
 
