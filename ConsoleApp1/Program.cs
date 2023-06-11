@@ -27,6 +27,7 @@ namespace Program
 
 		int? Min(in int[] _arr)
 		{
+			
 			return _arr.Where(i => i % 2 == 0).Min();
 		}
 		
@@ -93,7 +94,11 @@ namespace Program
 
 		public static void Main()
 		{
-			
+			Console.WriteLine("The second commit\n\n");
+		
+			int a = 1001;
+			int b = 2000 - a;
+
 			var be = new Bebebe();
 			be.handLeft.name = "Sam";
 			Console.WriteLine($"be.lenght = {be.lenght}");
