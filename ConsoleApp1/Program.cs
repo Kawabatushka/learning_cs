@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Diagnostics;
-using System.Security.AccessControl;
 
 namespace Program
 {
@@ -97,10 +95,14 @@ namespace Program
 			Console.WriteLine("The first commit in Secondary Branch\n\n");
 
 			Основной();
-
-			/*int a = 1001;
-			int b = 2000 - a;
-
+			Bebebe? ad = null;
+			Nullable<int>[] ass = {};
+			Nullable<short> aw = (short)ass.Length;
+			int? a = 1001;
+			int? b = 2000 - a;
+			int c = 3000;
+			int? s = null;
+			Console.WriteLine($"s={s}");
 			var be = new Bebebe();
 			be.handLeft.name = "Sam";
 			Console.WriteLine($"be.lenght = {be.lenght}");
@@ -112,7 +114,7 @@ namespace Program
 			Console.WriteLine($"be.handLeft.name = {be.handLeft.name}");
 			Console.WriteLine($"be.a = {be.a}");
 
-			Console.ReadKey();*/
+			Console.ReadKey();
 		}
 		
 		
