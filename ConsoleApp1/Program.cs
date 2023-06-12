@@ -7,17 +7,13 @@ using System.Security.AccessControl;
 namespace Program
 {
 	
-	interface IWord
-	{
-		void GetWord();
-	}
 
 	public abstract class Phrase
 	{
 		public int lenght;
 	}
 
-	class Bebebe : Phrase, IWord
+	class Bebebe : Phrase
 	{
 		public int a = 101;
 		public Hand handLeft = new Hand();
@@ -94,9 +90,11 @@ namespace Program
 
 		public static void Main()
 		{
-			Console.WriteLine("The second commit\n\n");
-			
-			int a = 1001;
+			Console.WriteLine("The first commit in Secondary Branch\n\n");
+
+			Основной();
+
+			/*int a = 1001;
 			int b = 2000 - a;
 
 			var be = new Bebebe();
@@ -110,7 +108,7 @@ namespace Program
 			Console.WriteLine($"be.handLeft.name = {be.handLeft.name}");
 			Console.WriteLine($"be.a = {be.a}");
 
-			Console.ReadKey();
+			Console.ReadKey();*/
 		}
 		
 		
