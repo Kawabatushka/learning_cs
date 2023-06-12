@@ -7,13 +7,17 @@ using System.Security.AccessControl;
 namespace Program
 {
 	
+	interface IWord
+	{
+		void GetWord();
+	}
 
 	public abstract class Phrase
 	{
 		public int lenght;
 	}
 
-	class Bebebe : Phrase
+	class Bebebe : Phrase, IWord
 	{
 		public int a = 101;
 		public Hand handLeft = new Hand();
