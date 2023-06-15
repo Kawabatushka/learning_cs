@@ -4,6 +4,14 @@ namespace Program.Transport_classes;
 
 public class Car : Transport
 {
+    public override ushort Year
+    {
+        get => base.Year;
+        set
+        {
+            if (value >= 1850) Year = value;
+        }
+    }
     public ushort GroundClearance { set; get; }
 
     public Car() : base()
