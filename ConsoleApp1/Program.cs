@@ -30,7 +30,7 @@ namespace Program
 		public abstract void GetInfo();
 
 		static void Main()
-		{
+		{ 
 			Transport t = new Car("Audi", 1290, 2014, 19);
 			Car c = new Car("Mercedes-Benz", 1350, 2008, 15);
 			Cargo crg = new Cargo("Volvo", 8000, 2017, 28, 15000);
