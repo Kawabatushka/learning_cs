@@ -63,7 +63,7 @@ namespace Program
 		public int a = 101;
 		public Hand handLeft = new Hand();
 
-		void IWord.GetWord() { }
+		public void GetWord() { }
 
 		int? Min(in int[] _arr)
 		{
