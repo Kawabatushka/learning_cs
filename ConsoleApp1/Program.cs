@@ -34,10 +34,13 @@ namespace Program
 			Transport t = new Car("Audi", 1290, 2014, 19);
 			Car c = new Car("Mercedes-Benz", 1350, 2008, 15);
 			Cargo crg = new Cargo("Volvo", 8000, 2017, 28, 15000);
+			Car c2 = new Car();
+			Cargo crg2=(Cargo)c2;
 			t.GetInfo();
-			c.GetInfo(); 
+			c.GetInfo();
 			crg.GetInfo();
-			
+			c2.GetInfo();
+			Console.WriteLine(crg.ToString());
 			Console.ReadKey();
 		}
 	}
